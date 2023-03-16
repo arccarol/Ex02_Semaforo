@@ -5,7 +5,6 @@ import java.util.concurrent.Semaphore;
 public class Semáforo02 extends Thread {
 	
 	private int idPessoa;
-	private int corredor;
 	private Semaphore semaforo;
 	
 	public Semáforo02(int idPessoa, Semaphore semaforo) {
@@ -40,7 +39,7 @@ public class Semáforo02 extends Thread {
 				e.printStackTrace();
 			}
 			
-			System.out.println("A pessoa " +idPessoa + " do corredo r" +idPessoa +" andou " +distperco +" metros");
+			System.out.println("A pessoa " +idPessoa + " do corredor " +idPessoa +" andou " +distperco +" metros");
 			
 		}
 	}
